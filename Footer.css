@@ -1,0 +1,59 @@
+body{
+font-size: 20px; /*font size de prueba púede ser removido a cambiado*/
+padding-bottom: 60em;
+position: relative;
+/*min-height: 100vh;*/
+width: auto;
+color: black;
+background-color: aquamarine;
+}
+
+footer {
+    bottom: 0;
+    width: auto;
+    left: 0;
+    background-color: #f8f9fa;
+    padding-right: 14.2rem;
+    padding-bottom: 3.8em;
+    border: 2px solid black;
+    position: absolute; 
+    
+  }
+  .footer-container{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 290px;
+    justify-content: center;
+  }
+  .footer-links{
+    margin-right: 200px;
+    justify-content: center;
+  }
+  
+  .footer-derechos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1px;
+    margin-left: 35px;
+
+  }
+  .iconos-redes {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .Titulo{
+    font-size: larger;
+  }
+  .text-reset{
+    transition: font-size 0.2s ease-out;
+  }
+  .text-reset:hover{
+    color: black;
+    font-size: 1.2em;
+    background-color: white;
+  }
+
+  
